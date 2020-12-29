@@ -1,3 +1,22 @@
-yo
+Liste des commandes utiles: 
 
-yo !
+Navigation dans les fichiers du pc:
+
+cd .. (pour revenir dans le dossier parent)
+cd <nom du dossier> (pour descendre dans un dossier enfant)//pas besoins de "" 
+ls (pour voir la liste des dossiers/fichiers dans le dossier courant)
+mkdir <nom du dossier qu'on veut créer> (pour créer un nouveau dossier)//pas besoins de ""
+touch <nom du fichier qu'on veut créer> (pour créer un fichier. Ne pas oublier l'extension dans le nom du fichier ex: .js, .html, .css etc.)// pas besoins de ""
+
+
+Commandes Git: 
+
+git init (pour initialiser un nouveau projet git)
+git status (pour connaître l'état de l'espace de travail : fichier suivie/oupas pour le commit que l'on souhaite faire)
+git add . (pour suivre les fichiers que l'on souhaite mettre dans le prochain commit)
+git commit -m <commentaire qui décrit ce qui a été modifié dans ce commit> (pour créer un point de sauvegarde)// il faut mettre des ""
+git push (pour mettre en ligne le/les commits qui ont été créé)
+
+git clone <adresse du projet qu'on veut cloner> (pour clonner un projet de zéro)
+
+git pull (pour récupérer les modification du projet qui sont sur le github)
